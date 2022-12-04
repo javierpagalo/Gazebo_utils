@@ -1,4 +1,4 @@
-# pick-and-place-with-icl-ur5-robotiq-gripper
+# Gazebo utils for gripper gazebo plugin
 
 ## Prerequisite:
 
@@ -12,27 +12,16 @@
 
 ### 1. Create new catkin workspace:
 
-    mkdir -p ur5_robotiq_ws/src
+    mkdir -p catkin_ws/src
     
-### 2. Git clone to the ur5_robotiq_ws/src:
+### 2. Git clone to the catkin_ws/src:
 
-    cd ur5_robotiq_ws/src
+    cd catkin_ws/src
 
-    git clone https://github.com/khs-sm/pick-and-place-with-icl-ur5-robotiq-gripper.git
+    git clone https://github.com/javierpagalo/Gazebo_utils.git
     
-### 3. Make sure the packages is in the directory as below:
 ```
-ur5_robotiq_ws   
-│
-└───src
-    │   find-object
-    │   gazebo-pkgs
-    |   general-message-pkgs
-    |   ......
-    |   README.md
-
-```
-### 4. Install dependencies using rosdep install and perform catkin_make to build the project:
+### 3. Install dependencies using rosdep install and perform catkin_make to build the project:
 
    `cd ur5_robotiq_ws` or `cd ..`
    

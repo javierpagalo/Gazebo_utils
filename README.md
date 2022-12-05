@@ -16,11 +16,9 @@
     
 ### 2. Git clone to the catkin_ws/src:
 ```
+  cd catkin_ws/src
 
-    cd catkin_ws/src
-
-    git clone https://github.com/javierpagalo/Gazebo_utils.git
-    
+  git clone https://github.com/javierpagalo/Gazebo_utils.git   
 ```
 ### 3. Install dependencies using rosdep install and perform catkin_make to build the project:
 
